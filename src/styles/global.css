@@ -1,0 +1,32 @@
+
+.d-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mt-3{
+    margin-top: 1rem;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-content{
+    display: flex;
+}
+
+.cards .ant-card{
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.cards .ant-card .client-data{
+    margin-left: 1rem;
+}
+
+.cards .ant-card .client-data p{
+    color: green;
+    margin-bottom: 0;
+}
